@@ -68,13 +68,7 @@ public class EventRequest extends IntentService {
             Log.e("Register Event", "Response NO_OK");
             return;
         }
-
-        //Intent que manda los datos del response al menuActivity
-        //Intent intentPostToBroadcast = new Intent(action);
-        // Intent intentPostToBroadcast = new Intent(action);
-        //intentPostToBroadcast.putExtra("jsonData",result);
-        //Log.i("Json data", result);
-        //sendBroadcast(intentPostToBroadcast);
+        
 
     }
 
